@@ -6,7 +6,7 @@ global.__base = __dirname + '/';
 var express  = require('express');
 var app      = express();
 
-var port     = process.env.PORT || 3000; //8080
+var port     = 1337; //8080
 var flash    = require('connect-flash');
 var path 	 = require('path');
 
